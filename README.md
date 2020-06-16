@@ -20,7 +20,7 @@ The details:
 
 1. [Intro_NN](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN) 
 
-Introduction to Neural Networks. Before using the torch modules it is useful to understand the maths behind gradients, perceptron, regularization. I also add some of my handwritten notes not ot forget the derivatives :)
+Introduction to Neural Networks. Before using the torch modules it is useful to understand the maths behind gradients, perceptron, regularization. I also add some of my handwritten notes not to forget the derivatives :)
 
 - [Notes](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/notes): 
   - [perceptron_math](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/1_Perceptron_math.md),
