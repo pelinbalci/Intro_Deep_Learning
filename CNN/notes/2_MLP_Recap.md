@@ -107,7 +107,7 @@ loss starts increasing and the training loss is still decreasing)
 
 The idea is that when we calculate the test accuracy, the model looks at the data that it has NEVER seen before. 
 
-Ok. The model doesn't use validation set to update its weights but our model selection process is based on how the model 
+Although the model doesn't use validation set to update its weights, model selection process is based on how the model 
 perform on both training and validation sets. Validation is part of selecting the best model. 
 
 `The model is biased in favor of the validation set.`
@@ -157,8 +157,8 @@ correct = [ True,  True,  True,  True,  True,  True,  True,  True, False,  True,
 - When we compare them to `target` we achive a boolean values. 
 
 We can calculate:
-    - Total accuracy 
-    - Class accuracy 
+- Total accuracy 
+- Class accuracy 
     
     
 ## Test accuracy - 2
