@@ -17,6 +17,13 @@ Activation Functions: https://cs231n.github.io/neural-networks-1/#actfun
 - Batch size is how many samples per batch to load. 
 - Convert data to tensor --> transforms. 
 
+## Flatten the images:
+Mnist data set is clean and pretrained. The images are centered in 28*28 pixel grid. (The image could be anaywhere on the grid
+or the grid sizes could be different, this would be more challenging for MLP.)
+
+We first need to convert the image to a vector. MLP uses this simple vector as input. So MLP losses the knowledge that 
+the input is originally a grid.  
+
 ## Network: 
 
 - Define architecture of the network
