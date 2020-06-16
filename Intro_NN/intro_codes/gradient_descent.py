@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from Intro_Pytorch.folders import folder
+from folders import folder
 #Some helper functions for plotting and drawing lines
 
 
