@@ -22,7 +22,7 @@ The details:
 
 Introduction to Neural Networks. Before using the torch modules it is useful to understand the maths behind gradients, perceptron, regularization. I also add some of my handwritten notes not ot forget the derivatives :)
 
-- [Notes]((https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/notes): 
+- [Notes](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/notes): 
   - [perceptron_math](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/1_Perceptron_math.md),
   - [cross_entropy](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/2_Cross_Entropy.md)
   - [gradients](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/3_Gradient.md), 
@@ -30,7 +30,7 @@ Introduction to Neural Networks. Before using the torch modules it is useful to 
   - [overfitting](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/5_Overfitting.md),
   - [other_problems](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/notes/6_Other_Problems.md)
   
-- [Codes]((https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/intro_codes): small scripts about this topics.
+- [Codes](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/intro_codes): small scripts about this topics.
   - [perceptrons.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/intro_codes/Perceptrons.py)
   - [cross_entropy.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/intro_codes/cross_entropy.py)
   - [gradient_descent.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Intro_NN/intro_codes/gradient_descent.py)
@@ -79,7 +79,7 @@ The first part is a recap for MLP. You can find complete classification code for
   - [summary](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/notes/2_MLP_Recap.md) --> Summary for Neural Networks. 
   - [Resources](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/notes/0_Resources_for_CNN.md) --> Useful links for CNN.
 
-- [Codes]((https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/codes):
+- [Codes](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/codes):
   - [Mnist_data_trainin.py](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/codes/1_Mnist_mlp.py) --> Full code for mnist data training. I made some analysis for different optim models here. 
   - [Mnist_data_validation.py](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/codes/2_Mnist_MLP_validation.py) --> How can we add validation set? And what is sampler? Check [this](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/codes/Sampler.py)
 
