@@ -28,7 +28,7 @@ Both equation gives us the same line.
 
 How can we make a prediction with these lines?
 
-y_pred_1 = sigmoid(x1 + x2) or y_pred_2 = (10x1 + 10x2)
+y_pred_1 = sigmoid(x1 + x2) or y_pred_2 = sigmoid(10x1 + 10x2)
 
 Let's calculate the probability of these two numbers:
 

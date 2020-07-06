@@ -26,12 +26,13 @@ Example-2:
 
 - 1st linear model = 5x1 - 2x2 + 8 
 - 2nd linear model = 7x1 - 3x2 + 1
-- Combine the outputs with the weights; 7 and 5 and use bias as -6.
 
 from the first linear model we need to calculate a probability, so we need to use sigmoid function for it. 
 
 - sigmoid(5x1 - 2x2 + 8)) --> prob of first model for the point x1, x2 --> a
 - sigmoid(7x1 - 3x2 + 1)) --> prob of second model for the point x1, x2 ---> b
+
+- Combine the outputs with the weights; 7 and 5 and use bias as -6.
 
 we can use a and b directly. 
 
@@ -54,7 +55,7 @@ We want a model that shows us an image is a dog, a cat or a bear.
 We don't need to create 3 different models. We just need to add 3 activation functions at the output layer. 
 
 Question: How many nodes in the output layer would you require if you were trying to classify all the letters in the English alphabet?
-Answert: 26
+Answer: 26
 
 ## Feedforward
 

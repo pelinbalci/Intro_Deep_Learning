@@ -16,7 +16,7 @@ Products are hard to calculate :(
 
 Sums are good :)
 
-    What function turns products into sums?
+    Which function turns products into sums? ---> logarithm!!
     
     log(ab) = log(a) + log(b)
     
