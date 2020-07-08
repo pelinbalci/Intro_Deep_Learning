@@ -319,6 +319,7 @@ for idx in np.arange(20):
                  color=("green" if preds[idx]==labels[idx] else "red"))
 
 name = 'test_data_predictions'
+folder_name = 'MLP/images'
 fig = plt.gcf()
 save_fig(fig, name)
 
