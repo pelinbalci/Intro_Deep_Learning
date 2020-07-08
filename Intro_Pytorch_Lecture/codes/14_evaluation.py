@@ -61,7 +61,7 @@ images, labels = next(iter(testloader))
 # optimizer.step()
 
 
-# Get the class probabilities: Check ps.shape = 64,10 and ps[i].sum() =1
+# Get the class probabilities: Check ps.shape = 64 rows,10 columns and ps[i].sum() =1
 ps = torch.exp(model(images))
 
 

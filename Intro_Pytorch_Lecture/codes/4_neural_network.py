@@ -54,14 +54,12 @@ h = activation(torch.mm(features, w1) + b1)
 out = torch.mm(h, w2) + b2
 
 
-# define softmax function for out.
 def softmax(x):
-    return torch.exp(x) / torch.sum(torch.exp(out), dim=1).view(1, -1)
+    y3 = torch.exp(x) / torch.sum(torch.exp(out), dim=1).view(-1, 1)
+    return y3
 
-
-y = softmax(out)
-print('done')
-
+y3 = softmax(out)
+print(y3[1])
 
 # Explanation:
 
@@ -70,11 +68,11 @@ exp_x = torch.exp(out)  # 64,10
 # exp_x has 64 row and 10 column. first row includes 10 outputs for 10 numbers.
 # we need to divide each element in the first row / sum first row.
 # sum shape should be 64 row and 1 column.
-sum_exp_x = torch.sum(torch.exp(out), dim=1)  # shape: 64
+sum_exp_x = torch.sum(exp_x, dim=1)  # shape: 1 row, 64 column.
 
 
 # shape_sum_exp_x = sum_exp_x.view(1, -1).T --> same.
-shape_sum_exp_x = sum_exp_x.view(-1, 1)  # shape: 64,1
+shape_sum_exp_x = sum_exp_x.view(-1, 1)  # shape: 64 row, 1 column
 
 
 y2 = exp_x / shape_sum_exp_x

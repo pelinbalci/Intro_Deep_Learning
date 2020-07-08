@@ -3,7 +3,7 @@ from torch import nn
 from torchvision import datasets, transforms
 from torch import optim
 import torch.nn.functional as F
-from Intro_Pytorch.common import helper
+from common import helper
 import time
 
 start = time.time()

@@ -37,8 +37,8 @@ logits = model(images)
 loss = criterion(logits, labels)
 
 print('loss with nlllos: ', loss)
-
 print('before backward pass: ', model[0].weight.grad)  # gives none
+
 loss.backward()
 print('after backward pass:', model[0].weight.grad)  # gives gradients.
 

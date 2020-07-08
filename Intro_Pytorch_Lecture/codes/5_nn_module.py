@@ -22,8 +22,16 @@ class Network(nn.Module):
 
 
 model = Network()
-print('done')
+print(model)
 
+"""
+Network(
+  (hidden): Linear(in_features=784, out_features=256, bias=True)
+  (output): Linear(in_features=256, out_features=10, bias=True)
+  (sigmoid): Sigmoid()
+  (softmax): Softmax(dim=None)
+)
+"""
 
 import torch.nn.functional as F
 
@@ -44,5 +52,11 @@ class Network_alternative(nn.Module):
 
 
 model_alternative = Network_alternative()
-print('done')
+print(model_alternative)
 
+"""
+Network_alternative(
+  (hidden): Linear(in_features=784, out_features=256, bias=True)
+  (output): Linear(in_features=256, out_features=10, bias=True)
+)
+"""

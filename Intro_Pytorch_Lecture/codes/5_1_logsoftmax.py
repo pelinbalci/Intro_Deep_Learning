@@ -1,13 +1,17 @@
 import torch
 from torch import nn
 
-m = nn.LogSoftmax()
-input = torch.randn(2, 3)
-output = m(input)
+logsoftmax_func = nn.LogSoftmax()
+softmax_func = nn.Softmax()
 
-print(m)
+input = torch.randn(2, 3)
+
+log_softmax_output = logsoftmax_func(input)
+softmax_output = softmax_func(input)
+
 print(input)
-print(output)
+print(softmax_output)  # between 0 and 1
+print(log_softmax_output)  # negative values.
 
 '''
 tensor([[ 0.4081, -1.4856,  0.2882],

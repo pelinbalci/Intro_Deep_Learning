@@ -8,7 +8,7 @@ from torchvision import datasets, transforms, models
 from torch import nn, optim
 import torch.nn.functional as F
 
-from Intro_Pytorch.common import helper, nn_model
+from common import helper, nn_model
 
 data_dir = 'Cat_Dog_data'
 

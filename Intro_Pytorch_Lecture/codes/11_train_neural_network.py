@@ -3,7 +3,7 @@ from torch import nn
 from torchvision import datasets, transforms
 from torch import optim
 import torch.nn.functional as F
-from Intro_Pytorch.common import helper
+from common import helper
 
 
 # Define a transform to normalize data:
@@ -47,6 +47,7 @@ for e in range(epochs):
 
         # Calculate loss
         loss = criterion(logits, labels)
+        print('loss', loss)
 
         # sum the loss
         running_loss += loss.item()

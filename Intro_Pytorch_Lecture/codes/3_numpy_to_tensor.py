@@ -11,7 +11,7 @@ b = torch.from_numpy(a)
 print('b is coming from a: ', b)
 print('b type:', b.dtype)
 
-c = b.numpy() # b type is not changed with this operation. b is still torch.
+c = b.numpy()  # b type is not changed with this operation. b is still torch.
 
 print('c is numpy version of b: ', c)
 print('c type:', c.dtype)

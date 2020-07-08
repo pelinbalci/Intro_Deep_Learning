@@ -2,7 +2,7 @@ import torch
 from torchvision import datasets, transforms
 from torch import nn, optim, topk
 
-from Intro_Pytorch.common import nn_model
+from common import nn_model
 
 # Define a transform to normalize data:
 transform = transforms.Compose((transforms.ToTensor(),
