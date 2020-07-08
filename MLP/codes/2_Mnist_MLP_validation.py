@@ -44,12 +44,11 @@ train_sampler = SubsetRandomSampler(train_idx)  # len(list(train_sampler)) = len
 valid_sampler = SubsetRandomSampler(valid_idx)
 
 # prepare data loaders
-train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size,
-    sampler=train_sampler, num_workers=num_workers)
-valid_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size,
-    sampler=valid_sampler, num_workers=num_workers)
-test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size,
-    num_workers=num_workers)
+train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, sampler=train_sampler,
+                                           num_workers=num_workers)
+valid_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, sampler=valid_sampler,
+                                           num_workers=num_workers)
+test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, num_workers=num_workers)
 
 
 ##############
