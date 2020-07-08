@@ -1,0 +1,3 @@
+- [helper.py](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/common/helper.py) --> is provided by Udacity, it is useful for plots. 
+- [fc_model](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/common/fc_model.py) and [nn_model](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/common/nn_model.py) --> are almost the same, reprsents a basic neural network. 
+- [save_fig](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/common/save_fig.py) --> is used for saving the plots. 
