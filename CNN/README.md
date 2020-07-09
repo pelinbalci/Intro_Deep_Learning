@@ -62,6 +62,7 @@ High-frequency components also correspond to the edges of objects in images, whi
 
 
 ### Edge Handling
+
 Ref: https://classroom.udacity.com/courses/ud188/lessons/b1e148af-0beb-464e-a389-9ae293cb1dcd/concepts/08495a99-5ca0-4030-ba22-b0d73d57deda
 
 Kernel convolution relies on centering a pixel and looking at it's surrounding neighbors. 
@@ -183,7 +184,7 @@ It is important to define number of filters and size of each filter.
 
 There are other hyperparameters that you can tune:
 
-- Stride of convolution: the amount by which the filter slides over the image.
+- Stride of convolution: the amount by which the filter slides over the image. If you don't specify anything, stride is set to 1.
 
 Stride is 1 : When we move the conv window across the image one pixel at a time. It makes the conv layer roughly the same width and height as the input image. 
 
@@ -191,15 +192,45 @@ Stride is 1 : When we move the conv window across the image two pixel at a time.
 
 this can change because it depends on what you will do with edges =)
 
+Quiz: 
 
+    How might you define a Maxpooling layer, such that it down-samples an input by a factor of 4? 
+    (A checkbox indicates that you should select ALL answers that apply.)
+
+
+Solution:
+
+    nn.MaxPool2d(2,4)
+    nn.MaxPool(4,4)
+    
+    The best choice would be to use a kernel and stride of 4, so that the maxpooling function sees every input pixel once, 
+    but any layer with a stride of 4 will down-sample an input by that factor.
+    
+    
 ### What will you do with edges? --> Padding
 
 - You can just ignore them :)
 - You can padding the image with zeros. So add 0 pixels around the image and use them for multiplication. 
 
 
-Create your own filter: https://setosa.io/ev/image-kernels/
+Padding is the border of 0's around an input array. If you don't specify anything, padding is set to 0.
 
+- Create your own filter: https://setosa.io/ev/image-kernels/
+- Calculate the required padding: https://cs231n.github.io/convolutional-networks/#conv
+
+Quiz:
+
+    If you want to define a convolutional layer that is the same x-y size as an input array, 
+    what padding should you have for a kernel_size of 7? 
+    
+    (You may assume that other parameters are left as their default values.)
+    
+Solution:
+
+    padding = 3
+    If you overlay a 7x7 kernel so that its center-pixel is at the right-edge of an image, 
+    you will have 3 kernel columns that do not overlay anything! 
+    So, that's how big your padding needs to be.
 
 ### Colors
 
@@ -215,10 +246,9 @@ to manufacturer, or even in the same device over time. Thus an RGB value does no
 without some kind of color management.
 
 
-
 ### Explanations
 
-REf: https://cs231n.github.io/convolutional-networks/#layers
+Ref: https://cs231n.github.io/convolutional-networks/#layers
 
 We use three main types of layers to build ConvNet architectures: 
 - Convolutional Layer, 
@@ -242,15 +272,91 @@ As with ordinary Neural Networks and as the name implies, each neuron in this la
 numbers in the previous volume.
 
 
+## Convolutional Layer Explanation
+
+    nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, padding=0)
+    
+- in_channels refers to the depth of an input. For a grayscale image, this depth = 1
+- out_channels refers to the desired depth of the output, or the number of filtered images you want to get as output
+- kernel_size is the size of your convolutional kernel (most commonly 3 for a 3x3 kernel)
+- stride and padding have default values, but should be set depending on how large you want your output to be in the spatial dimensions x, y
 
 
+# Example
+
+Let's say we have 1 image with 3 RGB and the height and width: 32x32. 
+
+    The shape of the input = 1, 3, 32, 32
+
+Define a convolutional layer: we use 3 rgb layers as input and we want to create 16 filters and our kernel will be 3x3 but we only use 3 for this. 
+    
+    conv2d(3, 16, 3) ---> 3 rgb, 16 new filters, 3x3  kernel 
+    output shape = 1, 16, 32, 32
+    
+Define a convolutional layer: we use 16 layers as input and we want to create 32 new filters and our kernel is the same. 
+    
+    conv2d(16, 32, 3) ---> 16 filters, 32 new filters, 3x3  kernel 
+    output shape = 1, 32, 32, 32
+    
+Define a convolutional layer: we use 32 layers as input and we want to create 64 filters and our kernel is the same. 
+    
+    conv2d(32, 64, 3) ---> 3 rgb, 16 new filters, 3x3  kernel 
+    output shape = 1, 64, 32, 32
+    
+
+Read More: 
+- https://pytorch.org/docs/stable/nn.html#conv2d
+- https://pytorch.org/docs/stable/nn.html#maxpool2d
+
+# Capsules:
+
+Read these articles:
+
+https://classroom.udacity.com/courses/ud188/lessons/b1e148af-0beb-464e-a389-9ae293cb1dcd/concepts/8caa6477-176c-49eb-b09e-c48f373c9f68
+
+https://cezannec.github.io/Capsule_Networks/
+
+https://video.udacity-data.com/topher/2018/November/5bfdca4f_dynamic-routing/dynamic-routing.pdf
+
+https://github.com/cezannec/capsule_net_pytorch
 
 
+# Data Augmentation
 
+Our model should learn invariant representation of the image:
+
+- Scale invariance: the size shouldn't effect. 
+- Rotation Invariance: Angle doesn't matter. 
+- Translation Invariance: Image can be anywhere 
+
+CNN have some builtin translation invariance. 
+
+Make your algorithm statistically invariant! For example; create random rotations.
+
+Expand your training set by augmenting the data. 
+
+It helps avoid overfitting. 
+
+You can expand the data. 
+
+
+# Important note for GPU
+Note about GPUs:
+
+In this notebook, you'll find training the network is much faster if you use a GPU. 
+However, you can still complete the exercises without a GPU. 
+
+If you can't use a local GPU, we suggest you use cloud platforms such as AWS, GCP, and FloydHub to train your networks 
+on a GPU.
+
+- https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html
+- https://cloud.google.com/gpu/
+- https://www.floydhub.com/
 
 # Useful Resources for CNN:
 
-
+- MUST: https://cs231n.github.io/convolutional-networks/
+- MUST: https://cs231n.github.io/understanding-cnn/
 - https://deepmind.com/blog/article/wavenet-generative-model-raw-audio
 - https://www.youtube.com/watch?v=ZE7qWXX05T0
 - http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
@@ -261,3 +367,20 @@ numbers in the previous volume.
 - PLAY :) https://quickdraw.withgoogle.com/#
 - Different applications of AI: https://experiments.withgoogle.com/collection/ai
 - Autodraw: https://www.autodraw.com/
+
+
+Optional Resources
+- Check out the AlexNet paper! http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+- Read more about VGGNet here: https://arxiv.org/pdf/1409.1556.pdf
+- The ResNet paper can be found here: https://arxiv.org/pdf/1512.03385v1.pdf
+- Here's the Keras documentation for accessing some famous CNN architectures: https://keras.io/api/applications/
+- Read this detailed treatment of the vanishing gradients problem: http://neuralnetworksanddeeplearning.com/chap5.html
+- Here's a GitHub repository containing benchmarks for different CNN architectures: https://github.com/jcjohnson/cnn-benchmarks
+- Visit the ImageNet Large Scale Visual Recognition Competition (ILSVRC) website:  http://www.image-net.org/challenges/LSVRC
+- Real time experiment: https://experiments.withgoogle.com/what-neural-nets-see  https://openframeworks.cc/
+- Visualization: https://www.youtube.com/watch?v=AgkfIQ4IGaM&t=78s
+- Better understanding: https://www.youtube.com/watch?v=ghEmQSxT6tw&t=
+- Keras: https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
+- Deep dream:) https://www.youtube.com/watch?v=XatXy6ZhKZw
+- details some dangers from using deep learning models (that are not yet interpretable) in real-world applications: https://openai.com/blog/adversarial-example-research/
+- UNDERSTANDING DEEP LEARNING REQUIRES RETHINKING GENERALIZATION: https://arxiv.org/pdf/1611.03530.pdf
