@@ -1,3 +1,5 @@
+# Ref: https://github.com/udacity/deep-learning-v2-pytorch/blob/master/recurrent-neural-networks/time-series/Simple_RNN.ipynb
+
 """"
 This is a regression problem: can we train an RNN to accurately predict the next data point, given a current data point?
 """

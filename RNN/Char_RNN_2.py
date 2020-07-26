@@ -1,4 +1,6 @@
 # Ref: https://classroom.udacity.com/courses/ud188/lessons/a8fc0724-37ed-40d9-a226-57175b8bb8cc/concepts/04794f8a-7728-4c0a-a808-aa7972bc7738
+# Ref: https://github.com/udacity/deep-learning-v2-pytorch/blob/master/recurrent-neural-networks/char-rnn/Character_Level_RNN_Solution.ipynb
+
 
 import numpy as np
 import torch
