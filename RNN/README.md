@@ -3,10 +3,10 @@
 
 ### Outline:
 
-- Simple models: [Simple_RNN](RNN/Simple_RNN.py), [Simple_RNN_cont](RNN/Simple_RNN_cont.py)
-- [Time Series Analysis](RNN/RNN_time_series.py) and [Results](RNN/results_time_series.md), [input_data](RNN/time_series_df.csv)
-- Karpathy example for simple text: [input data](RNN/input.txt), [karpathy_rnn](RNN/karpathy_rnn.py), [karpathy_rnn_complete](RNN/karpathy_rnn_complete.py)
-- Complete example for text data: [input_data](RNN/anna.txt), [Char_RNN](RNN/Char_RNN.py), [Char_RNN_2](RNN/Char_RNN_2.py)
+- Simple models: [Simple_RNN](Simple_RNN.py), [Simple_RNN_cont](Simple_RNN_cont.py)
+- [Time Series Analysis](RNN_time_series.py) and [Results](results_time_series.md), [input_data](time_series_df.csv)
+- Karpathy example for simple text: [input data](input.txt), [karpathy_rnn](karpathy_rnn.py), [karpathy_rnn_complete](karpathy_rnn_complete.py)
+- Complete example for text data: [Char_RNN](Char_RNN.py), [Char_RNN_2](Char_RNN_2.py)
 
 
 
