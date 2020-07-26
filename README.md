@@ -26,3 +26,5 @@ Mnist Data Set, Mnist Fashion Data Set and Cat & Dog images are used for classif
 This is a recap for MLP. You can find complete classification code for Mnist dataset and analysis of these codes.
 
 5. [CNN](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN) 
+
+6. [RNN]https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/RNN) 
