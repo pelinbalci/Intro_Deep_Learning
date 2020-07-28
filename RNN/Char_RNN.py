@@ -338,6 +338,7 @@ def predict(net, char, h=None, top_k=None):
     return net.int2char[char], h
 
 
+# generate new text data.
 def sample(net, size, prime='The', top_k=None):
     if (train_on_gpu):
         net.cuda()

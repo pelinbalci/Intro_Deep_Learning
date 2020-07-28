@@ -18,7 +18,7 @@ ix_to_char = {i: ch for i, ch in enumerate(chars)}
 
 # hyperparameters
 hidden_size = 20  # size of hidden layer of neurons
-seq_length = 4 # number of steps to unroll the RNN for
+seq_length = 4  # number of steps to unroll the RNN for
 learning_rate = 1e-1
 
 # model parameters
@@ -102,7 +102,7 @@ while True:
 
     # sample from the model now and then
     if n % 100 == 0:
-        sample_ix = sample(hprev, inputs[0], 17)  # 10 chars
+        sample_ix = sample(hprev, inputs[0], 23)  # 10 chars
         txt = ''.join(ix_to_char[ix] for ix in sample_ix)
         print('----\n %s \n----' % (txt,))
 
@@ -124,9 +124,22 @@ while True:
     if n > 10000:
         break
 
+
+sample_ix = sample(hprev, 1, 23)
+txt = ''.join(ix_to_char[ix] for ix in sample_ix)
+print('Generated text ----\n %s \n----' % (txt,))
+
 """
 ----
- ellomynameispelis 
+iter 9900, loss: 0.112147
 ----
-iter 10000, loss: 0.002086
+ name is Pelin. Hello my 
+----
+iter 10000, loss: 0.111037
+Generated text ----
+  is Pelin. Hello my nam 
+----
+
+Process finished with exit code 0
+
 """
