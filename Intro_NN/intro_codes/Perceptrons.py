@@ -6,7 +6,7 @@ AND Operations
 '''
 # TODO: Set weight1, weight2, and bias
 weight1 = 1.0
-weight2 = 1.0
+weight2 = 0.5
 bias = -1.5
 
 print('AND Operations')

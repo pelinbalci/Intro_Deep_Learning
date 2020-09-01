@@ -51,8 +51,8 @@ def update_weights(x, y, weights, bias, learnrate):
     gradient_weight = -(y-output) * x
     gradient_bias = -(y-output)
 
-    weights = weights - (learnrate * gradient_weight)
-    bias = bias - (learnrate * gradient_bias)
+    weights -= (learnrate * gradient_weight)
+    bias -=(learnrate * gradient_bias)
 
     #other way
     output = output_formula(x, weights, bias)

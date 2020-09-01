@@ -3,6 +3,8 @@
 import torch
 from torch import nn
 
+torch.manual_seed(0)
+
 softmax = nn.Softmax()
 logsoftmax = nn.LogSoftmax(dim=1)
 loss = nn.NLLLoss()
