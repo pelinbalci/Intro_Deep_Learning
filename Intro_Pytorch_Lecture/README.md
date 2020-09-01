@@ -75,13 +75,12 @@ In the Mnist dataset, images shape is (64, 1, 28, 28) --> 64 images per batch, 1
 
 ## Iterations
 
-First way:
 
     for images, labels in trainloader:
         # Flatten Images to 64,784
         images = images.view(images.shape[0], -1)
         
-Second way:
+Find a sample batch:
     
     dataiter = iter(trainloader)
     images, labels = dataiter.next()
