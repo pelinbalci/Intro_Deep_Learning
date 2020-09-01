@@ -14,7 +14,7 @@ import torch.nn.functional as F
 
 from common.save_fig import save_fig
 
-data = torch.randn(1, 3, 32, 32)  # torch.Size([1, 3, 32, 32])
+data = torch.randn(1, 3, 23, 29)  # torch.Size([1, 3, 32, 32])
 
 pool = nn.MaxPool2d(2, 2)
 
