@@ -91,3 +91,104 @@ Ref: https://medium.com/@pchetan481/derivation-of-back-propagation-with-cross-en
 
 ![image_description!](images/summary_2.jpeg)
 
+
+# Summary:
+
+Our problem is predicting the images. We have two images: dog, cat --> there are 2 classes. And we have 10 observations. 
+
+    y = [0 1 1.... 0
+         1 0 0.....1
+     
+- y shape is: (2, 10) 
+
+- First observation is belong to class 1. It is a cat. 
+- Second observation is belong to class 0. It is dog.
+- Third observation is belong to class 0. It is a dog.
+
+...
+
+- Final observation is belong to class 1. It is a cat. 
+
+We get our inputs: X, multiply them by their weights:W and each of them is summed up with bias:b.
+
+- h represents the linear output.
+
+
+    h = wx +b 
+
+- we can predict the probabilities by using sigmoid function:
+
+y_pred = sigmoid(h) --> gives us value btw 0-1. 
+
+-Let's calculate probabilities for different classes.
+
+    y_pred = [0.8  0.0  0.75.....0.6]
+
+We find the probabilities of being in positive class, i.e class 1, or in our case it is being cat.
+
+
+- First observation: class 1. It is predicted as a cat.  --> correct!
+- Second observation: class 0. It is predicted as a dog. --> correct!
+- Third observation: class 1. It is predicted as a cat.  ---> WRONG!
+
+- Final observation: class 0. It is predicted as a dog. --> WRONG!
+
+
+How can we calculate the errors?
+
+    Error = - y * ln(y_pred) - (1-y) * ln(1-y_pred)
+
+
+If y = 1 then we will use the first part of this error, if y=0 then we will use the second part of this error. Since y_pred
+is calculated as the probability of being in class 1, the equation gives us the right probability for the case y_pred=0.
+
+But how did we get this error function in the first place?
+
+    Our aim is maximizing the product of probability: max(y_pred_1 * y_pred_2 * ... y_pred_10) 
+    
+    Note: if y = 0  use 1- y_pred 
+          else      use y_prd
+
+
+We need to turn it to sum. Product makes our life hard. 
+
+    ln(y_pred_1 * y_pred_2 * ... y_pred_10) = ln(y_pred_1) + ... + ln(y_pred_10)
+    
+    Include the if/else part. And we get the cross entropy:
+    
+    Error = Sum(- y * ln(y_pred) - (1-y) * ln(1-y_pred))  ---> minimize this.
+    
+    
+Now we need to update the weight & bias to get smaller cross entropy. 
+
+    d --> derivative
+
+    d/dy_pred  E * d/dh y_pred * d/dw h =  -(y-y_pred)*x
+
+    d/dy_pred  E * d/dh y_pred * d/db h =  -(y-y_pred)
+    
+
+Then use these gradients to update the weight & bias:
+
+    weight = weight - learning_rate * [ -(y-y_pred) * x]
+    bias = bias - learning_rate * [-(y-y_pred)]
+    
+    
+Quick example:
+
+For 1st observation:
+
+- y = 1
+- w1 = 2  w2 = 1  b= 0 and x1 = 1  x2 = 0.225  
+- h = w * x + b = 2.225
+- sigmoid(h) = 0.8 ---> y_pred = 0.8
+
+Calculate the gradient for w1 : -(y - y_pred)* x1 = -(1-0.8) * 1 = -0.2
+
+Update the weights with lr = 1
+
+w1 = w1 - 1*(-0.2) = 2.2 
+
+
+Always go to the direction of reverse of gradient. If the probability of being in class 1 was smaller then the gradient would be higher.
+And we need to increase the weights more. 

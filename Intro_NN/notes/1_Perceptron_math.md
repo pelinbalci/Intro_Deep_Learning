@@ -122,6 +122,9 @@ since; if x = 0, then 1 / 1 + e^ 0 = 0.5
 
 [Perceptron_Algorithm](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/intro_codes/perceptron_algorithm.py)
 
+## Why perceptron is not enough to solve XOR?
+
+XOR function explanation: http://toritris.weebly.com/perceptron-5-xor-how--why-neurons-work-together.html
 
 ## Multiclass Classification & Softmax
 

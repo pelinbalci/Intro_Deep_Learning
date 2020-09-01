@@ -46,8 +46,8 @@ GOOD MODEL WILL GIVE US LOW CROSS ENTROPY.
 
 IT MAKES SENSE. 
 
-A GOOD MODEL HAVE HIGH PROBABLITY FOR THE RIGHT CLASSIFIED POINTS. 
-NEGATIVE LOGARITM OF A HIGH NUMBER WILL BE LOW. 
+A GOOD MODEL HAVE HIGH PROBABILITY FOR THE RIGHT CLASSIFIED POINTS. 
+NEGATIVE LOGARITHM OF A HIGH NUMBER WILL BE LOW. 
 
     if the probability of a point is 1;
     
@@ -59,7 +59,7 @@ We can think of the negative of the logarithms of probabilities as ERRORS for ea
 
 Points that are correctly classified will have small errors and o.w they have large errors. 
 
-Maximizing the probability = Minizing the Cross Entropy
+Maximizing the probability = Minimizing the Cross Entropy
 
 ### Cross Entropy formula
 
