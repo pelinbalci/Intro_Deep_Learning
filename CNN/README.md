@@ -1,5 +1,35 @@
 # CNN
 
+## Outline
+
+1. cs231n
+
+    Assignment 1: 
+
+    - [cs231n_gradient](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cs231n_gradient)
+    - [cs231n_conv_net](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cs231n_conv_net)
+    - [cs231n_knn](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cs231n_knn)
+    - [cs231n_svm](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cs231n_svm)
+    - [cs231n_softmax](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cs231n_softmax)
+    
+    Assignment 2:
+
+2. Udacity
+
+    Introduction: 
+
+    - [custom_filters.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/custom_filters.py)
+    - [max_pooling.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/max_pooling.py)
+    - [conv_visualization.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/conv_visualization.py)
+    - [conv_vis_recap.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/conv_vis_recap.py)
+    - [images](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/images)
+    
+    Cifar-10:
+    
+    - [cifar_cnn.py](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cifar_cnn.py)
+    - [cifar_images](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN/cifar_images)
+
+      
 The MLP turn the pixels to vectors and don't analyze them a group. There are half million links between the input and hidden layers. 
 And the pictures are pre- trained, they are all in center, they all in grey color scale and their sizes are almost the same. But in real life the numbers can be anywhere. 
 

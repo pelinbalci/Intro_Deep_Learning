@@ -30,8 +30,14 @@ Mnist Data Set, Mnist Fashion Data Set and Cat & Dog images are used for classif
 This is a recap for MLP. You can find complete classification code for Mnist dataset and analysis of these codes.
 
 5. [CNN](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/CNN) 
-- Filtering, visualization, cifar-10-images
-- You may find the assignments for knn, svm, softmax, gradient from the lecture cs231n from Standford University
+    - Filtering, visualization, cifar-10-images
+    - You may find the assignments for knn, svm, softmax, gradient from the lecture cs231n from Standford University
 
 6. [RNN](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/RNN) 
 Includes, text prediction, time series analysis.
+
+7. [Sentiment Analysis](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/Sentiment_Analysis)
+Sentiment analysis with RNN
+
+8. [text_mining](https://github.com/pelinbalci/Intro_Deep_Learning/tree/master/text_mining)
+Small example for text mining
