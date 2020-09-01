@@ -1,8 +1,8 @@
 from __future__ import print_function
 
 from builtins import object
-from CNN.svm.linear_svm import *
-from CNN.softmax.softmax_classifier import *
+from CNN.cs231n_svm.linear_svm import *
+from CNN.cs231n_softmax.softmax_classifier import *
 from builtins import range
 
 

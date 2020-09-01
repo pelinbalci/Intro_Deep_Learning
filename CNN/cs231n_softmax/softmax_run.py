@@ -103,7 +103,7 @@ loss_naive, grad_naive = softmax_loss_naive(W, X_dev, y_dev, 0.000005)
 toc = time.time()
 print('naive loss: %e computed in %fs' % (loss_naive, toc - tic))
 
-from CNN.softmax.softmax_classifier import softmax_loss_vectorized
+from CNN.cs231n_softmax.softmax_classifier import softmax_loss_vectorized
 tic = time.time()
 loss_vectorized, grad_vectorized = softmax_loss_vectorized(W, X_dev, y_dev, 0.000005)
 toc = time.time()
@@ -120,7 +120,7 @@ print('Gradient difference: %f' % grad_difference)
 # rates and regularization strengths; if you are careful you should be able to
 # get a classification accuracy of over 0.35 on the validation set.
 
-from CNN.svm.linear_classifier import Softmax
+from CNN.cs231n_svm.linear_classifier import Softmax
 
 results = {}
 best_val = -1

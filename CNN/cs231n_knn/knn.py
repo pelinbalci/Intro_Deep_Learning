@@ -3,7 +3,7 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-from CNN.knn.data_utils import load_CIFAR10
+from CNN.cs231n_knn.data_utils import load_CIFAR10
 
 # This is a bit of magic to make matplotlib figures appear inline in the notebook
 # rather than in a new window.
@@ -58,7 +58,7 @@ X_train = np.reshape(X_train, (X_train.shape[0], -1))
 X_test = np.reshape(X_test, (X_test.shape[0], -1))
 print(X_train.shape, X_test.shape)
 
-from CNN.knn.knn_model import KNearestNeighbor
+from CNN.cs231n_knn.knn_model import KNearestNeighbor
 
 # Create a kNN classifier instance.
 # Remember that training a kNN classifier is a noop:

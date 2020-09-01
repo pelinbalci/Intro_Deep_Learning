@@ -198,7 +198,7 @@ class KNearestNeighbor(object):
             
             Find the max vote. np.argmax(np.bincount(closest_y)) --> 4 
             
-            The first test willbelong to class 1. 
+            The first test willbelong to class 4. 
             '''
 
             y_pred[i] = np.argmax(np.bincount(closest_y))
