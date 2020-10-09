@@ -3,7 +3,7 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-from CNN.svm.data_utils import load_CIFAR10
+from CNN.cs231n_svm.data_utils import load_CIFAR10
 
 # This is a bit of magic to make matplotlib figures appear inline in the notebook
 # rather than in a new window.
@@ -139,7 +139,7 @@ loss, grad = svm_loss_naive(W, X_dev, y_dev, 0.0)
 # Numerically compute the gradient along several randomly chosen dimensions, and
 # compare them with your analytically computed gradient. The numbers should match
 # almost exactly along all dimensions.
-from CNN.svm.gradient_check import grad_check_sparse
+from CNN.cs231n_svm.gradient_check import grad_check_sparse
 f = lambda w: svm_loss_naive(w, X_dev, y_dev, 0.0)[0]
 grad_numerical = grad_check_sparse(f, W, grad)
 
@@ -161,7 +161,7 @@ print('Naive loss: %e computed in %fs' % (loss_naive, toc - tic))
 '''
 Vectorized
 '''
-from CNN.svm.linear_svm import svm_loss_vectorized
+from CNN.cs231n_svm.linear_svm import svm_loss_vectorized
 tic = time.time()
 loss_vectorized, _ = svm_loss_vectorized(W, X_dev, y_dev, 0.000005)
 toc = time.time()
