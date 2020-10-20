@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce8dc52-89c6-4923-b0e0-616bd53d9757" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4ce8dc52-89c6-4923-b0e0-616bd53d9757" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/Style_Transfer_Solution.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/Style_Transfer_exercise.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/image-operations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/images/hockney.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/images/octopus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/images/vgg_fig1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/notebook_ims/style_tx_cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/notebook_ims/vgg19_convlayers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/CNN/codes/1_Mnist_mlp.py" />
-        <option value="$PROJECT_DIR$/CNN/codes/2_Mnist_MLP_validation.py" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/CNN/notes/1_MLP_training.md" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/common/save_fig.py" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/CNN/notes/2_MLP_Recap.md" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/1_Perceptron_math.md" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/2_Cross_Entropy.md" />
-        <option value="$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/3_Gradient.md" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="763" />
-    <option name="height" value="777" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Intro_Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intro_Deep_Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1gGaiGI95o01scM2oGIVrIPkZun" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Standford_CS231n/assignment_2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Intro_Deep_Learning" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Intro_Deep_Learning" />
+      </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.softmax">
-    <configuration name="1_Mnist_mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Standford_CS231n/assignment_2" />
+      <recent name="$PROJECT_DIR$/CNN/cs231n_fc_nets" />
+      <recent name="$PROJECT_DIR$/CNN" />
+      <recent name="$PROJECT_DIR$/Intro_NN/inputs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Style_Transfer/images" />
+      <recent name="$PROJECT_DIR$/Style_Transfer/other_images" />
+      <recent name="$PROJECT_DIR$/../Standford_CS231n/" />
+      <recent name="$PROJECT_DIR$/../Standford_CS231n/assignment_2" />
+      <recent name="$PROJECT_DIR$/../Standford_CS231n/assignment_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.19_Model_Trial_sequential">
+    <configuration name="17_module_api_two" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Intro_Deep_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/cs231n_fc_nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/codes/1_Mnist_mlp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cs231n_fc_nets/17_module_api_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_Mnist_MLP_validation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="18_Sequential_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Intro_Deep_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Intro_Deep_Learning/CNN/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/cs231n_fc_nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Intro_Deep_Learning/CNN/codes/2_Mnist_MLP_validation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cs231n_fc_nets/18_Sequential_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Perceptrons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="19_Model_Trial_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Intro_Deep_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intro_NN/intro_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/cs231n_fc_nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intro_NN/intro_codes/Perceptrons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cs231n_fc_nets/19_Model_Trial_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="19_Model_Trial_sequential" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Intro_Deep_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,32 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="softmax" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Intro_Deep_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/intro_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/cs231n_fc_nets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/intro_codes/softmax.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cs231n_fc_nets/19_Model_Trial_sequential.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,58 +149,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration name="cifar_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Intro_Deep_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Intro_Deep_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="Intro_Deep_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cifar_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.softmax" />
-        <item itemvalue="Python.2_Mnist_MLP_validation" />
-        <item itemvalue="Python.Perceptrons" />
-        <item itemvalue="Python.1_Mnist_mlp" />
+        <item itemvalue="Python.19_Model_Trial_sequential" />
+        <item itemvalue="Python.cifar_cnn" />
+        <item itemvalue="Python.19_Model_Trial_module" />
+        <item itemvalue="Python.18_Sequential_api" />
+        <item itemvalue="Python.17_module_api_two" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -236,154 +194,682 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1106" height="777" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30922243" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3201133" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state x="454" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601644856746">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="454" y="225" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1240.777@40.23.1240.777" timestamp="1601644856746" />
+    <state x="162" y="363" width="716" height="676" key="#xdebugger.evaluate" timestamp="1602255872399">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="625" y="99" width="588" height="334" key="#xdebugger.evaluate/37.23.1243.777@37.23.1243.777" timestamp="1598110875268" />
+    <state x="607" y="208" key="#xdebugger.evaluate/38.23.1242.777@38.23.1242.777" timestamp="1598961119785" />
+    <state x="564" y="124" width="716" height="676" key="#xdebugger.evaluate/39.23.1241.777@39.23.1241.777" timestamp="1601124832554" />
+    <state x="162" y="363" width="604" height="437" key="#xdebugger.evaluate/40.23.1240.777@40.23.1240.777" timestamp="1602255872399" />
+    <state width="1188" height="466" key="DebuggerActiveHint" timestamp="1602063684962">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1189" height="466" key="DebuggerActiveHint/37.23.1243.777@37.23.1243.777" timestamp="1597846963123" />
+    <state width="1188" height="466" key="DebuggerActiveHint/39.23.1241.777@39.23.1241.777" timestamp="1599038057695" />
+    <state width="1188" height="466" key="DebuggerActiveHint/40.23.1240.777@40.23.1240.777" timestamp="1602063684962" />
+    <state x="49" y="32" width="1222" height="759" maximized="true" key="DiffContextDialog" timestamp="1603028755082">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="138" y="123" width="1042" height="577" key="DiffContextDialog/38.23.1242.777@38.23.1242.777" timestamp="1598948943498" />
+    <state x="49" y="32" width="1222" height="759" maximized="true" key="DiffContextDialog/40.23.1240.777@40.23.1240.777" timestamp="1603028755082" />
+    <state width="709" height="418" key="GridCell.Tab.0.bottom" timestamp="1602262770062">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.0.bottom/37.23.1243.777@37.23.1243.777" timestamp="1598111588601" />
+    <state width="560" height="112" key="GridCell.Tab.0.bottom/38.23.1242.777@38.23.1242.777" timestamp="1599030458397" />
+    <state width="1219" height="212" key="GridCell.Tab.0.bottom/39.23.1241.777@39.23.1241.777" timestamp="1601125421077" />
+    <state width="709" height="418" key="GridCell.Tab.0.bottom/40.23.1240.777@40.23.1240.777" timestamp="1602262770062" />
+    <state width="709" height="418" key="GridCell.Tab.0.center" timestamp="1602262770061">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.0.center/37.23.1243.777@37.23.1243.777" timestamp="1598111588600" />
+    <state width="560" height="112" key="GridCell.Tab.0.center/38.23.1242.777@38.23.1242.777" timestamp="1599030458395" />
+    <state width="1219" height="212" key="GridCell.Tab.0.center/39.23.1241.777@39.23.1241.777" timestamp="1601125421076" />
+    <state width="709" height="418" key="GridCell.Tab.0.center/40.23.1240.777@40.23.1240.777" timestamp="1602262770061" />
+    <state width="709" height="418" key="GridCell.Tab.0.left" timestamp="1602262770061">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.0.left/37.23.1243.777@37.23.1243.777" timestamp="1598111588599" />
+    <state width="560" height="112" key="GridCell.Tab.0.left/38.23.1242.777@38.23.1242.777" timestamp="1599030458393" />
+    <state width="1219" height="212" key="GridCell.Tab.0.left/39.23.1241.777@39.23.1241.777" timestamp="1601125421076" />
+    <state width="709" height="418" key="GridCell.Tab.0.left/40.23.1240.777@40.23.1240.777" timestamp="1602262770061" />
+    <state width="709" height="418" key="GridCell.Tab.0.right" timestamp="1602262770061">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.0.right/37.23.1243.777@37.23.1243.777" timestamp="1598111588601" />
+    <state width="560" height="112" key="GridCell.Tab.0.right/38.23.1242.777@38.23.1242.777" timestamp="1599030458396" />
+    <state width="1219" height="212" key="GridCell.Tab.0.right/39.23.1241.777@39.23.1241.777" timestamp="1601125421077" />
+    <state width="709" height="418" key="GridCell.Tab.0.right/40.23.1240.777@40.23.1240.777" timestamp="1602262770061" />
+    <state width="709" height="418" key="GridCell.Tab.1.bottom" timestamp="1602262770063">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.1.bottom/37.23.1243.777@37.23.1243.777" timestamp="1598111591178" />
+    <state width="560" height="112" key="GridCell.Tab.1.bottom/38.23.1242.777@38.23.1242.777" timestamp="1599030458400" />
+    <state width="786" height="257" key="GridCell.Tab.1.bottom/39.23.1241.777@39.23.1241.777" timestamp="1601124841971" />
+    <state width="709" height="418" key="GridCell.Tab.1.bottom/40.23.1240.777@40.23.1240.777" timestamp="1602262770063" />
+    <state width="709" height="418" key="GridCell.Tab.1.center" timestamp="1602262770062">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.1.center/37.23.1243.777@37.23.1243.777" timestamp="1598111591178" />
+    <state width="560" height="112" key="GridCell.Tab.1.center/38.23.1242.777@38.23.1242.777" timestamp="1599030458399" />
+    <state width="786" height="257" key="GridCell.Tab.1.center/39.23.1241.777@39.23.1241.777" timestamp="1601124841970" />
+    <state width="709" height="418" key="GridCell.Tab.1.center/40.23.1240.777@40.23.1240.777" timestamp="1602262770062" />
+    <state width="709" height="418" key="GridCell.Tab.1.left" timestamp="1602262770062">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.1.left/37.23.1243.777@37.23.1243.777" timestamp="1598111591177" />
+    <state width="560" height="112" key="GridCell.Tab.1.left/38.23.1242.777@38.23.1242.777" timestamp="1599030458398" />
+    <state width="786" height="257" key="GridCell.Tab.1.left/39.23.1241.777@39.23.1241.777" timestamp="1601124841970" />
+    <state width="709" height="418" key="GridCell.Tab.1.left/40.23.1240.777@40.23.1240.777" timestamp="1602262770062" />
+    <state width="709" height="418" key="GridCell.Tab.1.right" timestamp="1602262770062">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="1221" height="193" key="GridCell.Tab.1.right/37.23.1243.777@37.23.1243.777" timestamp="1598111591178" />
+    <state width="560" height="112" key="GridCell.Tab.1.right/38.23.1242.777@38.23.1242.777" timestamp="1599030458399" />
+    <state width="786" height="257" key="GridCell.Tab.1.right/39.23.1241.777@39.23.1241.777" timestamp="1601124841970" />
+    <state width="709" height="418" key="GridCell.Tab.1.right/40.23.1240.777@40.23.1240.777" timestamp="1602262770062" />
+    <state x="346" y="121" key="RollbackChangesDialog" timestamp="1599389034843">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="346" y="121" key="RollbackChangesDialog/40.23.1240.777@40.23.1240.777" timestamp="1599389034843" />
+    <state x="273" y="78" width="900" height="722" key="SettingsEditor" timestamp="1602263276174">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="75" y="50" key="SettingsEditor/37.23.1243.777@37.23.1243.777" timestamp="1598026873169" />
+    <state x="76" y="50" key="SettingsEditor/38.23.1242.777@38.23.1242.777" timestamp="1597842063679" />
+    <state x="273" y="78" width="900" height="722" key="SettingsEditor/40.23.1240.777@40.23.1240.777" timestamp="1602263276174" />
+    <state width="512" height="501" key="XDebugger.FullValuePopup" timestamp="1602255829937">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state width="512" height="501" key="XDebugger.FullValuePopup/37.23.1243.777@37.23.1243.777" timestamp="1597915845627" />
+    <state width="512" height="501" key="XDebugger.FullValuePopup/38.23.1242.777@38.23.1242.777" timestamp="1598204009204" />
+    <state width="512" height="501" key="XDebugger.FullValuePopup/39.23.1241.777@39.23.1241.777" timestamp="1599038565071" />
+    <state width="512" height="501" key="XDebugger.FullValuePopup/40.23.1240.777@40.23.1240.777" timestamp="1602255829937" />
+    <state x="327" y="288" width="598" height="490" key="find.popup" timestamp="1602150981634">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="234" y="166" width="598" height="490" key="find.popup/38.23.1242.777@38.23.1242.777" timestamp="1598951927050" />
+    <state x="327" y="288" width="598" height="490" key="find.popup/40.23.1240.777@40.23.1240.777" timestamp="1602150981634" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/CNN/codes/1_Mnist_mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#137#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/intro_codes/Perceptrons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/CNN/notes/0_Resources_for_CNN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-11" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/common/save_fig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/CNN/notes/1_MLP_training.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3585">
-            <caret line="239" column="69" selection-start-line="239" selection-start-column="69" selection-end-line="239" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/CNN/notes/2_MLP_Recap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-96">
-            <caret line="166" column="84" selection-start-line="166" selection-start-column="84" selection-end-line="166" selection-end-column="84" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/CNN/codes/2_Mnist_MLP_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#172#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/intro_codes/softmax.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/1_Perceptron_math.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="182" column="76" selection-start-line="182" selection-start-column="76" selection-end-line="182" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/2_Cross_Entropy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="169">
-            <caret line="100" column="82" selection-start-line="100" selection-start-column="82" selection-end-line="100" selection-end-column="82" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/3_Gradient.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/4_Neural_Network.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1061" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/5_Overfitting.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1346" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Intro_Deep_Learning/Intro_NN/notes/6_Other_Problems.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1106" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MLP/codes/1_Mnist_mlp.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/gradient_descent.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/1_first_app.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/2_multilayer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/4_neural_network.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/5_nn_module.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/8_backpropagation.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/8_backpropagation.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/9_apply_backward.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/10_train_neural_network.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/11_train_neural_network.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/11_train_neural_network.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/14_evaluation.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_Pytorch_Lecture/codes/17_1_save_models.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/conv_visualization.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/conv_vis_recap.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/conv_vis_recap.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_gradient/shape_ex.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/cifar_cnn.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Simple_RNN.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Simple_RNN_cont.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Simple_RNN_cont.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN_personal/data_personal/RNN_personal.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>379</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN.py</url>
+          <line>370</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/Char_RNN_2.py</url>
+          <line>370</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RNN/karpathy_rnn_complete.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sentiment_Analysis/sentiment_rnn.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_algo_brilliant.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_trial.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_algorithm.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_algorithm.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_algorithm.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/perceptron_algorithm.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/Perceptrons.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intro_NN/intro_codes/loss_explanation.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text_mining/arm.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text_mining/arm.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_knn/knn.py</url>
+          <line>239</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_gradient/gradient_ex.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_softmax/softmax_run.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_softmax/softmax_classifier.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_conv_net/filters.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_conv_net/filters.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_conv_net/filters_torch.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_conv_net/filters_torch.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/cifar_cnn.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/cifar_cnn.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_svm/linear_svm.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_1/cs231n_svm/linear_svm.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/04_fc_sgdmomentum.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/04_fc_sgdmomentum.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/optim.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/05_fc_rmsprop.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/09_bn_fcnets.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/fc_nets.py</url>
+          <line>378</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/09_bn_fcnets.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/10_bn_deepnetworks.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/layers.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/08_bn_.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/12_bn_batchsize.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/layers.py</url>
+          <line>462</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/13_ln_.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/layers.py</url>
+          <line>296</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/layers.py</url>
+          <line>457</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/14_dropout.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/layers.py</url>
+          <line>811</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/15_Conv_Neural_Nets.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/15_Conv_Neural_Nets.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/14_dropout.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/14_dropout.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/14_dropout.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>350</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>379</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>307</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_three_layer.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>297</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>294</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/16_pytorch_cnn_two_layer.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/17_module_api_two.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/17_module_api_two.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CNN/cifar_cnn.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Standford_CS231n/assignment_2/cs231n_fc_nets/19_Model_Trial_sequential.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
