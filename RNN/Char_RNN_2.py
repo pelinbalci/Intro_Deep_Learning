@@ -8,13 +8,13 @@ from torch import nn
 import torch.nn.functional as F
 
 # open text file and read in data as `text`
-with open('anna.txt', 'r') as f:
+with open('/Users/pelin.balci/PycharmProjects/Intro_Deep_Learning/RNN/data/anna.txt', 'r') as f:
     complete_text = f.read()
 
 
-#text = complete_text[:48]
-text = complete_text[:100000]
-text = complete_text
+text = complete_text[:1000]
+#text = complete_text[:100000]
+#text = complete_text
 print(text)
 
 # encode the text and map each character to an integer and vice versa
@@ -362,7 +362,7 @@ def sample(net, size, prime='The', top_k=None):
 
     return ''.join(chars)
 
-print(sample(net, 100, prime='Anna', top_k=5))
+print(sample(net, 100, prime='are', top_k=5))
 
 
 ##### Other way of loading the model
