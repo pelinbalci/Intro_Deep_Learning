@@ -215,7 +215,7 @@ class Sentiment_RNN(nn.module):
 
     def __init__(self, vocab_size, output_size, embedding_dim, hidden_dim, n_layers, drop_prob = 0.5):
 
-        super(SentimentRNN, self).__init__()
+        super(Sentiment_RNN, self).__init__()
 
         self.output_size = output_size
         self.n_layers = n_layers
