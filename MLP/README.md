@@ -31,8 +31,8 @@ the input is originally a grid.
    return loss will be average loss over 20 images.
    - If you would like to calculate the loss in each epoch, you can add the loss*batch_size to the epoch loss.
 
-I wrote a simple code in order to understand log_softmax, softmax and related loss functions. Reach the code [here](https://github.com/pelinbalci/aws_machine_learning/blob/master/Intro_Pytorch/Intro_NN/intro_codes/loss_explanation.py)
-And if you are used to using excel, a simple example is[here](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/CNN/notes/cross_entropy_example.xlsx)
+I wrote a simple code in order to understand log_softmax, softmax and related loss functions. Reach the code [here](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/intro_codes/loss_explanation.py)
+And if you are used to using excel, a simple example is[here](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/MLP/notes/cross_entropy_example.xlsx)
 
 ## Optimization:
 - I've tried Adam and SGD; you can find the results and images of each models: [Adam](images/Adam_20) and [SGD](images/SGD_20)
