@@ -65,24 +65,44 @@ LSTM have four gates:
 
 Define RNN
 
-- input_size - the size of the input we have 1 feature --> x
-- hidden_dim - the number of features in the RNN output and in the hidden state
-- n_layers - the number of layers that make up the RNN, typically 1-3; greater than 1 means that you'll create a stacked RNN
-- batch_first - whether or not the input/output of the RNN will have the batch_size as the first dimension 
+- input_size: the size of the input we have 1 feature --> x
+- hidden_dim: the number of features in the RNN output and in the hidden state
+- n_layers: the number of layers that make up the RNN, typically 1-3; greater than 1 means that you'll create a stacked RNN
+- batch_first:  whether or not the input/output of the RNN will have the batch_size as the first dimension 
 (batch_size, seq_length, hidden_dim)
-- batch_first=True means that the first dimension of the input and output will be the batchsize. 
+- batch_first=True : means that the first dimension of the input and output will be the batchsize. 
 - batch_first=True : shaping the input such that the batch size will be the first dimension. 
 
 
 ### Shape
 
-Input: torch.Size([1, 20, 1])  batch_size=1, seq_length = 20, input number of features = 1
-Output: torch.Size([20, 1])  batch_size*seq=20, output_size=1
-Hidden: torch.Size([2, 1, 10])  n_layers=2, batch_size =1, hidden_dim=10
+- Input: torch.Size([1, 20, 1]) 
+ 
+ 
+        batch_size=1, 
+        seq_length = 20, 
+        input number of features = 1
+        
+- Output: torch.Size([20, 1])  
+        
+        
+        batch_size*seq=20, 
+        output_size=1
+        
+- Hidden: torch.Size([2, 1, 10])  
+        
+        
+        n_layers=2, 
+        batch_size =1, 
+        hidden_dim=10
 
 QUIZ:
 
-Say you've defined a GRU layer with input_size = 100, hidden_size = 20, and num_layers=1. 
+Say you've defined a GRU layer with:
+ - input_size = 100, 
+ - hidden_size = 20, 
+ - num_layers=1
+ 
 What will the dimensions of the hidden state be if you're passing in data, batch first, in batches of 3 sequences at a time?
 
 ANSWER: (1,3,20)
