@@ -128,7 +128,7 @@ XOR function explanation: http://toritris.weebly.com/perceptron-5-xor-how--why-n
 
 ## Multiclass Classification & Softmax
 
-Softmax --> the probabilities need to be 1 in sum.
+Let's say the output of neural networks or logits are represented as y1,y2, and y3. These are floating numbers and we need to turn them into (kind of) probabilities. 
 
 Example:
 
@@ -136,51 +136,47 @@ Example:
 - y2 = 1
 - y3= 0
 
-turning them to probabilities: 
+Let's turn them into probabilities: 
 
 - 2 / 2+1+0 = 2/3
 - 1 / 2+1+0 = 1/3
 - 0 / 2+1+0 = 0
 
-summary is 1. 
-
-There is a problem in this solution. what if our scores are negative? 
-
-Example:
+Here, the summary is 1. everything looks fine. However, there might be a problem with this solution. What if our scores are negative? 
 
 - y1 = -1
 - y2 = 1
 - y3= 0
 
-turning them to probabilities: 
+If we turn them into probabilities as before, the scores become NAN. 
 
-- 2 / -1+1+0 = NAN
+- -1 / -1+1+0 = NAN
 - 1 / -1+1+0 = NAN
 - 0 / -1+1+0 = NAN
 
  = (
+
+ We need a solution to make the floating numbers (logits) positive numbers. 
  
  ⭐️ The exponential function only returns positive values !!
  
  ⭐️ Exponential function is the solution. 
 
-Example:
-
 - y1 = 2
 - y2 = 1
 - y3= 0
 
-turning them to probabilities with exponential function:
+turning them into probabilities with exponential function:
 
 - e^2 / e^2 + e^1 + e^0 = 0.67
 - e^1 / e^2 + e^1 + e^0 = 0.24
 - e^0 / e^2 + e^1 + e^0 = 0.09
 
-summary is 1. This is softmax function. 
+summary is 1. This is the SOFTMAX function. 
 
     Linear function scores = Z1, ..., Zn
     P(Class i ) = e^Zi / e^Z1 + ... + e^Zn
 
-if the n = 2, then softmax ---> sigmoid. 
+if the n = 2, then softmax becomes sigmoid. 
 
 [Softmax_code](https://github.com/pelinbalci/Intro_Deep_Learning/blob/master/Intro_NN/intro_codes/softmax.py)
